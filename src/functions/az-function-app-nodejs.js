@@ -8,6 +8,6 @@ app.http('az-function-app-nodejs', {
 
         const name = request.query.get('name') || await request.text() || 'world';
 
-        return { body: `Welcome to Azure Function App Deployment` };
+        return { body: `Welcome to Azure Function App!!! ` };
     }
 });
